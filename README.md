@@ -1,6 +1,6 @@
 # 2D Car Game in C#
 
-![Game Screenshot](./assets/gameplay.PNG.png)
+![Game Screenshot](./assets/gameplay.PNG)
 
 ## Description
 
@@ -30,6 +30,6 @@ This game offers three different modes:
 
 ## Screenshots
 
-![Finish Line](./assets/winner.PNG.png)
+![Finish Line](./assets/winner.PNG)
 
-![Game Over](./assets/game-over.PNG.png)
+![Game Over](./assets/game-over.PNG)
