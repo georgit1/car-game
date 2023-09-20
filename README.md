@@ -33,11 +33,11 @@ This game offers three different modes:
 <div style="display: flex; justify-content: space-between;">
 
   <div style="flex: 1; padding: 5px;">
-    <img src="./assets/winner.PNG" alt="Game Screenshot 1" width="400" height="300">
+    <img src="./assets/winner.PNG" alt="Game Screenshot 1">
   </div>
 
   <div style="flex: 1; padding: 5px;">
-    <img src="./assets/game-over.PNG" alt="Game Screenshot 2" width="400" height="300">
+    <img src="./assets/game-over.PNG" alt="Game Screenshot 2">
   </div>
 
 </div>
