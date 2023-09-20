@@ -1,10 +1,10 @@
 # 2D Car Game in C#
 
-![Game Screenshot](./assets/gameplay.PNG)
+<img src="./assets/gameplay.PNG" alt="Game Screenshot" width="400" height="300">
 
 ## Description
 
-Welcome to the 2D Car Game in C#! This game was developed as a project to practice the fundamentals of C#. It can be highly improved, and your feedback is welcome!
+"Welcome to the 2D Car Game in C#! This game was developed as part of my studies to practice the fundamentals of C#. It represents one of my earlier and larger projects, and as such, it may not adhere to best coding practices or maintain clean code. However, there is room for significant improvement."
 
 The goal of the game is to pass the finish line with your car in the shortest time possible while avoiding obstacles (cones) coming from the top. You have three lives, and each time you collide with a cone, you lose one life. When you run out of lives, it's game over.
 
@@ -30,6 +30,14 @@ This game offers three different modes:
 
 ## Screenshots
 
-![Finish Line](./assets/winner.PNG)
+<div style="display: flex; justify-content: space-between;">
 
-![Game Over](./assets/game-over.PNG)
+  <div style="flex: 1; padding: 5px;">
+    <img src="./assets/winner.PNG" alt="Game Screenshot 1" width="400" height="300">
+  </div>
+
+  <div style="flex: 1; padding: 5px;">
+    <img src="./assets/game-over.PNG" alt="Game Screenshot 2" width="400" height="300">
+  </div>
+
+</div>
