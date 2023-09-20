@@ -37,6 +37,7 @@ namespace Huetchenfahren
             lblFinalTime.Visible = false;
 
         }
+        
         private void rbtnLength_CheckedChanged(object sender, EventArgs e)
         {
             if (rbtnLength.Checked)
@@ -45,6 +46,7 @@ namespace Huetchenfahren
                 txtNumberCones.Enabled = false;
             }
         }
+        
         private void rbtnNumberCones_CheckedChanged(object sender, EventArgs e)
         {
             if (rbtnNumberCones.Checked)
@@ -53,6 +55,7 @@ namespace Huetchenfahren
                 txtNumberCones.Enabled = true;
             }
         }
+        
         private void rbtnEndless_CheckedChanged(object sender, EventArgs e)
         {
             if (rbtnEndless.Checked)
@@ -178,6 +181,7 @@ namespace Huetchenfahren
 
             }
         }
+        
         private void timLinks_Tick(object sender, EventArgs e)
         {
             if (car.Left < 640 && car.Left > 10 && car.Top >= 100)
@@ -193,6 +197,7 @@ namespace Huetchenfahren
                 timLinks.Enabled = false;
             }
         }
+        
         private void timRechts_Tick(object sender, EventArgs e)
         {
             if (car.Left < 480 && car.Top >= 100)
@@ -208,6 +213,7 @@ namespace Huetchenfahren
                 timRechts.Enabled = false;
             }
         }
+        
         private void timLives_Tick(object sender, EventArgs e)
         {
             gameover();
@@ -224,6 +230,7 @@ namespace Huetchenfahren
                     hitagain = 2;
                 }
             }
+            
             if (((lives == 0) && (rbtnLength.Checked || rbtnNumberCones.Checked)) || (rbtnEndless.Checked && lives == 0))
             {
                 timLives.Enabled = false;
@@ -286,6 +293,7 @@ namespace Huetchenfahren
                     break;
             }
         }
+        
         private void winner()
         {
             if (car.Bounds.IntersectsWith(finishline.Bounds))
@@ -432,7 +440,6 @@ namespace Huetchenfahren
             if (finishDistance >= 0 || conesPassed != numberCones)
             {
                 finishDistance -= speedStreet;
-
             }
 
             if (finishDistance <= 0 || conesPassed >= numberCones)
@@ -442,7 +449,6 @@ namespace Huetchenfahren
             }
 
             lblFinish.Text = "Finish in:" + finishDistance + "m";
-           
         }
 
         private void timCollision_Tick(object sender, EventArgs e)
