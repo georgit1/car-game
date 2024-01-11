@@ -4,7 +4,7 @@
 
 ## Description
 
-"Welcome to the 2D Car Game in C#! This game was developed as part of my studies to practice the fundamentals of C#. It represents my first and larger project, and as such, it may not adhere to best coding practices or maintain clean code. However, there is room for significant improvement."
+Welcome to the 2D Car Game in C#! This game was developed as part of my studies to practice the fundamentals of C#. It represents my first and larger project, and as such, it may not adhere to best coding practices or maintain clean code. However, there is room for significant improvement.
 
 The goal of the game is to pass the finish line with your car in the shortest time possible while avoiding obstacles (cones) coming from the top. You have three lives, and each time you collide with a cone, you lose one life. When you run out of lives, it's game over.
 
